@@ -60,7 +60,7 @@ Development mode:
   
   ``2 http://localhost:3000/login``
    
-   ``3 username:henry,password:admin123!@#`
+   ``3 username:henry,password:admin123!@#``
 
 
 
