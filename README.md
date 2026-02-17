@@ -17,6 +17,7 @@ User Authentication – Login and session management using NextAuth.js with emai
 ``6 Responsive UI – Built with Tailwind CSS, works on desktop and mobile screens, including responsive tables, buttons, and modals``.
 
 `` 7 Forms and Validation –``
+
 ``8 AI chat using Gemini``
 
 
