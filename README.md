@@ -57,8 +57,10 @@ Development mode:
 ``npm run dev``
 # Access the admin area
   ``1 click on the login button``
+  
   ``2 http://localhost:3000/login``
-   ``username:henry,password:admin123!@#`
+   
+   `` 3username:henry,password:admin123!@#`
 
 
 
