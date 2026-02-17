@@ -1,5 +1,5 @@
 
-Project Name
+``Project Name``
 Overview
 
 Brief description of the project, what it does, and its purpose.
@@ -7,19 +7,19 @@ Brief description of the project, what it does, and its purpose.
 What Was Implemented
 User Authentication – Login and session management using NextAuth.js with email/password.
 
-CRUD Operations for Products –
+```1 CRUD Operations for Products –```
 
-Display products in a paginated table
+```Display products in a paginated table``
 
-Add new products via modal form
+```Add new products via modal form``
 
-Edit and delete existing products with confirmation alerts
+```Edit and delete existing products with confirmation alerts``
 
-Image uploads for product images
+```Image uploads for product images``
 
-Responsive UI – Built with Tailwind CSS, works on desktop and mobile screens, including responsive tables, buttons, and modals.
+```Responsive UI – Built with Tailwind CSS, works on desktop and mobile screens, including responsive tables, buttons, and modals``.
 
-Forms and Validation –
+```Forms and Validation –``
 
 Custom forms for product creation and user interactions
 
@@ -47,58 +47,35 @@ Backend API is RESTful and available at BASE_URL.
 
 Users are expected to have modern browsers for full functionality.
 
-Setup Instructions
+# Setup Instructions
 
 Clone the repository:
 
-git clone https://github.com/your-username/your-project.git
-cd frontend
+```git clone https://github.com/your-username/your-project.git``
+``cd frontend``
 
 
-Install dependencies:
+# Install dependencies:
 
-npm install --force
+``npm install --force``
 
 
 Set environment variables in .env.local:
 
-
-
 Run the development server:
 
-npm run dev
+``npm run dev``
 
 
-Open the app in your browser at:
+# Open the app in your browser at:
 
-http://localhost:3000
+``http://localhost:3000``
 
-How to Run the Project
+# How to Run the Project
 
 Development mode:
 
-npm run dev
-
-
-Production build:
-
-npm run build
-npm run start
+``npm run dev``
 
 Known Limitations
 
-Some UI components are not fully responsive on smaller screens.
-
-Limited error handling for API failures.
-
-Authentication only supports email/password login.
-
-No offline support implemented.
-
-Additional Notes
-
-API endpoints are expected to follow REST conventions.
-
-For any environment-specific changes, update .env.local.
-
-Styling conventions follow Tailwind CSS utility classes.
