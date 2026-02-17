@@ -1,8 +1,5 @@
 
-``Project Name``
-Overview
-
-Brief description of the project, what it does, and its purpose.
+# Interview
 
 What Was Implemented
 User Authentication – Login and session management using NextAuth.js with email/password.
