@@ -67,7 +67,9 @@ Run the development server:
 # Open the app in your browser at:
 
 ``http://localhost:3000``
-![App Screenshot](/Screenshot from 2026-02-17 16-25-41.png)
+
+
+![App Screenshot](/screen1.png)
 
 
 # How to Run the Project
