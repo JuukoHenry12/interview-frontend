@@ -1,0 +1,93 @@
+.login {
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+/* Logo styling */
+.logo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;   /* default for desktop */
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width:1024px){ /* tablets and smaller */
+    .logo {
+        width: 80%;    /* shrink width */
+        height: auto;  /* adjust height automatically */
+    }
+}
+
+@media only screen and (max-width:768px){ /* mobile */
+    .logo {
+        width: 90%;      /* almost full width */
+        height: auto;    /* height adjusts to content */
+    }
+}
+
+.logo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../../../public/assets/contractor.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+    z-index: 0;
+}
+
+.logo2 {
+    z-index: 1; /* ensure logo image is above background */
+    max-width: 100%; /* responsive image width */
+    height: auto;    /* maintain aspect ratio */
+}
+
+h2 {
+    z-index: 1;
+    color: #000080;
+    text-align: center;
+    font-size: 1.5rem; /* adjust for smaller screens */
+}
+
+/* Optional: adjust font size on mobile */
+@media only screen and (max-width:768px){
+    h2 {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media only screen and (max-width:1024px){
+    .logo {
+        display: none;  /* hide on tablets and smaller */
+    }
+
+    h2 {
+        font-size: 1.2rem; /* adjust heading size */
+    }
+}
+
+
+/* Mobile adjustments - hide logo */
+@media only screen and (max-width:768px){
+    .logo {
+        display: none;  /* hide on mobile */
+    }
+
+    h2 {
+        font-size: 1.2rem; /* keep heading smaller */
+    }
+}

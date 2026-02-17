@@ -1,0 +1,51 @@
+.loginform {
+  width: 100%;
+  max-width: 400px; /* smaller max-width for mobile */
+  margin: 0 auto;
+  padding: 1.5rem;  /* reduce padding on mobile */
+  box-sizing: border-box;
+}
+
+.loginform label {
+  font-size: 1rem; /* responsive font */
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.loginform input {
+  width: 100%;      /* full width input */
+  padding: 0.75rem; /* reduce padding for mobile */
+  font-size: 0.95rem;
+  border-radius: 9999px; /* keep rounded style */
+  margin-bottom: 0.5rem;
+  box-sizing: border-box;
+}
+
+.loginform button {
+  width: 100%;         /* full width on mobile */
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 9999px;
+  margin-top: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+@media only screen and (max-width: 480px) {
+  .loginform {
+    padding: 1rem;
+  }
+
+  .loginform label {
+    font-size: 0.9rem;
+  }
+
+  .loginform input {
+    padding: 0.65rem;
+    font-size: 0.9rem;
+  }
+
+  .loginform button {
+    padding: 0.65rem;
+    font-size: 0.95rem;
+  }
+}

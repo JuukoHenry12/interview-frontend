@@ -1,0 +1,25 @@
+.form label{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.form p{
+    font-size: 18px;
+}
+
+.form input {
+    padding: 15px;
+}
+
+.phone-input-container {
+  width: 100%;
+}
+
+.phone-input-button {
+  border: none !important;
+  background: transparent !important;
+  height: 48px !important;   
+  margin: 0;
+  padding: 0 8px;
+  border-radius: 9999px 0 0 9999px !important;
+}
