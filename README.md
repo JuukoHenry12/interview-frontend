@@ -67,6 +67,7 @@ Run the development server:
 # Open the app in your browser at:
 
 ``http://localhost:3000``
+![Alt text for the image](public/Screenshot from 2026-02-17 16-25-41.png)
 
 # How to Run the Project
 
@@ -75,4 +76,6 @@ Development mode:
 ``npm run dev``
 
 Known Limitations
+
+
 
