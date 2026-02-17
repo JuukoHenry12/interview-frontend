@@ -46,6 +46,7 @@ Clone the repository:
 
 
 ![image alt ](https://github.com/JuukoHenry12/interview-frontend/blob/main/screen1.png)
+![image alt](https://github.com/JuukoHenry12/interview-frontend/blob/main/public/screen3.png)
 
 
 
