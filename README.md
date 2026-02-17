@@ -6,60 +6,35 @@ User Authentication – Login and session management using NextAuth.js with emai
 
 ```1 CRUD Operations for Products –```
 
-```Display products in a paginated table``
+``2 Display products in a paginated table``
 
-```Add new products via modal form``
+``3 Add new products via modal form``
 
-```Edit and delete existing products with confirmation alerts``
+``4 Edit and delete existing products with confirmation alerts``
 
-```Image uploads for product images``
+``5 Image uploads for product images``
 
-```Responsive UI – Built with Tailwind CSS, works on desktop and mobile screens, including responsive tables, buttons, and modals``.
+``6 Responsive UI – Built with Tailwind CSS, works on desktop and mobile screens, including responsive tables, buttons, and modals``.
 
-```Forms and Validation –``
+`` 7 Forms and Validation –``
+``8 AI chat using Gemini``
 
-Custom forms for product creation and user interactions
-
-Phone input validation using react-phone-input-2
-
-SweetAlert2 for success/error notifications
-
-API integration with Axios for data submission and retrieval
-
-Tech Decisions & Assumptions
-
-Next.js – chosen for server-side rendering, API routes, and React-based architecture.
-
-Tailwind CSS – for quick, responsive styling.
-
-Axios – for API calls.
-
-React Icons – for consistent iconography.
-
-NextAuth.js / Session management – to handle authentication.
-
-Assumptions:
-
-Backend API is RESTful and available at BASE_URL.
-
-Users are expected to have modern browsers for full functionality.
 
 # Setup Instructions
 
 Clone the repository:
 
-```git clone https://github.com/your-username/your-project.git``
+```git clone https://github.com/JuukoHenry12/interview-frontend.git``
 ``cd frontend``
-
 
 # Install dependencies:
 
 ``npm install --force``
 
 
-Set environment variables in .env.local:
+# Set environment variables in .env.local:
 
-Run the development server:
+# Run the development server:
 
 ``npm run dev``
 
@@ -69,7 +44,8 @@ Run the development server:
 ``http://localhost:3000``
 
 
-![App Screenshot](/screen1.png)
+![App Screenshot](assets/screen1.png)
+
 
 
 # How to Run the Project
